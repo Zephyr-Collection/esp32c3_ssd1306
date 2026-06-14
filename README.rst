@@ -1,1 +1,4 @@
-![LCD display module mounted on a breadboard showing Hello World text in dark blue on a bright cyan screen, mounted between power and data connection pins with a red wire visible above](images/Hello.jpeg)
+.. figure:: images/Hello.jpeg
+   :alt: LCD display module mounted on a breadboard showing Hello World text
+   
+   ESP32-C3 with SSD1306 OLED Display showing "Hello World"

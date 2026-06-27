@@ -6,4 +6,8 @@ find_package(Zephyr REQUIRED HINTS $ENV{ZEPHYR_BASE})
 project(lvgl)
 
 FILE(GLOB app_sources src/*.c)
-target_sources(app PRIVATE ${app_sources})
+FILE(GLOB time_source src/time/*.c)
+target_sources(app PRIVATE
+                ${app_sources}
+                ${time_source}
+)
